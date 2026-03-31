@@ -1,0 +1,28 @@
+# =========================
+# Datasets & Data Folders
+# =========================
+*.h5
+*.hdf5
+data/
+datasets/
+
+# =========================
+# Python & Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Jupyter Notebooks
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# OS Generated Files
+# =========================
+.DS_Store
+Thumbs.db

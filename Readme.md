@@ -21,12 +21,12 @@ This repository contains the implementation for **Specific Task 2h** for the CER
 ```
 
 ## Important Note on Results & Plotting
-Both the **finetuned** and **scratch** model weights have been successfully saved (`.pth` files) and are included in this repository. 
 
-However, generating the final `matplotlib` comparison graph requires the continuous epoch-by-epoch validation loss history, which is stored in memory during the training loop. **To save you from having to re-run the entire 3.5-hour training pipeline just to view the output**, the final generated graph showing the convergence comparison has been pre-saved and is available in the `results/` folder.
+Both the **finetuned** and **scratch** model weights have been successfully saved (`.pth` files) and are included in this repository.
 
-If you wish to reproduce the exact graph from scratch, you can run the notebook top-to-bottom. Please note that the full pipeline (12 epochs pretrain, 10 epochs finetune, 10 epochs scratch) takes approximately 3.3 hours on an 8GB NVIDIA GPU.
+Generating the final `matplotlib` comparison graph requires continuous epoch-by-epoch validation loss tracking, which is maintained in memory during the training process. To avoid the need to re-run the entire training pipeline solely for visualization, the final convergence comparison graph has been pre-generated and is available in the `results/` directory.
 
+For full reproducibility, the notebook may be executed sequentially from start to finish.
 ## How to Run
 1. Ensure you have the required dependencies installed:
    ```bash

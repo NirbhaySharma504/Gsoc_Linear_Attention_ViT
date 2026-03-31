@@ -10,15 +10,15 @@ This repository contains the implementation for **Specific Task 2h** for the CER
 
 ## Repository Structure
 
-\`\`\`text
+```text
 .
-├── Task_2h_Linear_Transformer.ipynb  # Main Jupyter Notebook with full training pipeline
-├── finetuned_linear_vit.pth          # Saved weights of the finetuned model
-├── scratch_linear_vit.pth            # Saved weights of the scratch model
-├── checkpoints/                      # (Optional) Intermediate epoch weights
+├── Task_2h_Linear_Transformer.ipynb   # Main Jupyter Notebook with full training pipeline
+├── finetuned_linear_vit.pth           # Saved weights of the finetuned model
+├── scratch_linear_vit.pth             # Saved weights of the scratch model
+├── checkpoints/                       # (Optional) Intermediate epoch weights
 └── results/
-    └── comparison_graph.png          # Pre-saved validation loss comparison plot
-\`\`\`
+    └── comparison_graph.png           # Pre-saved validation loss comparison plot
+```
 
 ## Important Note on Results & Plotting
 Both the **finetuned** and **scratch** model weights have been successfully saved (`.pth` files) and are included in this repository. 
